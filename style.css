@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  margin: 5px;
+}
+
+#header h1 {
+  color: #000000;
+}
+
+#header blockquote {
+  font-style: italic;
+}
+
+#header blockquote #soekarno {
+  font-style: normal;
+  color: #000000;
+}
+
+.menu {
+  background-color: #333;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #111;
+}
+
+.gambar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.gambar img {
+  width: 100%;
+  height: 80%;
+}
+.polaroid {
+  width: 80%;
+  max-width: 300px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.polaroid:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 10px;
+}
+
+.isi {
+  margin: 20px;
+}
+
+.isi .jawa {
+  color: #6c757d;
+  font-weight: bold;
+}
+
+.profil,
+.beternak {
+  margin: 20px;
+}
+
+.profil h3,
+.beternak h3 {
+  color: #000000;
+}
+
+.ulp .uli {
+  margin-bottom: 10px;
+}
+
+.koleksi {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.koleksi img {
+  width: 25%;
+  height: auto;
+}
+
+.promo {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.promo h2 {
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.promo h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.promo h3 strong {
+  color: #28a745;
+}
+
+.promo h3 #Wa {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.promo h4 {
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.promo ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.promo li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.promo a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.promo a:hover {
+  text-decoration: underline;
+}
